@@ -35,10 +35,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-archives
-  
-  # Specific appearance and order of navigation links
-header_pages:
-  - index.md
 
 environment: prod
 # google_analytics:

@@ -16,12 +16,12 @@ Note that this project is largely aimed at people wishing to read LaTeX using a 
 It is widely thought that LaTeX is a good system for a blind mathematician or scientist to use to create and read scientific documents, as it is a linear code and so the user does not have to interact  with two-dimensional notation, such as fractions and column vectors. By reading this linear code, a blind person can take in and understand scientific documents in the same way that a sighted person would do by studying a printed document. It should be noted that normally, laTeX is just a source from which documents are converted into an attractive-looking, typeset document that can be printed or viewed on screen, often in a .pdf, .dvi or .ps format. For various technical reasons, documents in such formats are currently inaccessible with current screen-reading technology. The best current solution therefore is not to concern ourselves with documents in these formats, but rather to read and interpret the LaTeX source code itself.
 
 ## Reading a LaTeX Document
-<p>It is entirely possible to read a LaTeX document simply by reading the LaTeX source itself. This however, is often a time-consuming and pain-staking process, and it is often not particularly nice to read. For example, the LaTeX source for the quadratic formula is <br/>
+It is entirely possible to read a LaTeX document simply by reading the LaTeX source itself. This however, is often a time-consuming and pain-staking process, and it is often not particularly nice to read. For example, the LaTeX source for the quadratic formula is <br/>
 ```
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 ```
 <br/>
-It is therefore the aim of the project to translate a line of LaTeX into a line of braille code, which can be read using a refreshable braille display. The project also aims to provide an audible translation of the LaTeX source which will be output through current screen-reading technology.</p>
+It is therefore the aim of the project to translate a line of LaTeX into a line of braille code, which can be read using a refreshable braille display. The project also aims to provide an audible translation of the LaTeX source which will be output through current screen-reading technology.
 
 ## Current Features
 Latex-access currently contains the following features.
@@ -46,13 +46,13 @@ As most refreshable braille displays are currently limited to one line, manipula
 One of the many powerful features of LaTeX is the ability to define custom commands.  Latex-access includes a mechanism, the preprocessor, for including the definitions of such commands in the translation.  Once commands have been added to the preprocessor they can be saved to a file for future use.
 
 ## Obtaining the scripts </h2>
-<p>The scripts are  available on Github. The URL for the repository is<br/>
-[https://github.com/latex-access/latex-access](https://github.com/latex-access/latex-access)<p>
-<p>You can clone it with the following command<br/>
+The scripts are  available on Github. The URL for the repository is<br/>
+[https://github.com/latex-access/latex-access](https://github.com/latex-access/latex-access)
+You can clone it with the following command<br/>
 ```
 git clone --recursive https://github.com/latex-access/latex-access.git
 ```
-</p>
+
 
 ## Contacting the Developers
-The developers of the project are always happy to answer any questions you may have.  We are also keen to hear suggestions for any improvements or new features.  Rather than contacting an individual developer directly it is probably best that you use our [mailing list](https://lists.sourceforge.net/lists/listinfo/latex-access-devel).</p>
+The developers of the project are always happy to answer any questions you may have.  We are also keen to hear suggestions for any improvements or new features.  Rather than contacting an individual developer directly it is probably best that you use our [mailing list](https://lists.sourceforge.net/lists/listinfo/latex-access-devel).

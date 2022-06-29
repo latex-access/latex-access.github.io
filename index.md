@@ -20,12 +20,10 @@ It is entirely possible to read a LaTeX document simply by reading the LaTeX sou
 ```
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 ```
-<br/>
 It is therefore the aim of the project to translate a line of LaTeX into a line of braille code, which can be read using a refreshable braille display. The project also aims to provide an audible translation of the LaTeX source which will be output through current screen-reading technology.
 
 ## Current Features
-Latex-access currently contains the following features.
-
+Latex-access currently contains the following features:
 * Translation of many mathematical expressions from LaTeX to Nemeth or UEB  braille and English speech. These include, but are not confined to:
   * Translation of fractions, both numerical and algebraic.
   * Translation of trigonometric functions and hyperbolic functions.
@@ -45,7 +43,7 @@ As most refreshable braille displays are currently limited to one line, manipula
 ## The Preprocessor
 One of the many powerful features of LaTeX is the ability to define custom commands.  Latex-access includes a mechanism, the preprocessor, for including the definitions of such commands in the translation.  Once commands have been added to the preprocessor they can be saved to a file for future use.
 
-## Obtaining the scripts </h2>
+## Obtaining the scripts
 The scripts are  available on Github. The URL for the repository is<br/>
 [https://github.com/latex-access/latex-access](https://github.com/latex-access/latex-access)
 You can clone it with the following command<br/>

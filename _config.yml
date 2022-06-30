@@ -20,7 +20,7 @@
 
 title: Latex-access
 name: Latex-access Contributors
-description: "Provides a blind or vision impaired reader of LaTeX documents "
+description: "The latex-access project is designed to provide a realtime translation of a line of LaTeX into braille, using either the Nemeth or UEB code, which can be read on a refreshable braille display. This will greatly improve the ease of use of LaTeX to blind mathematicians and scientists.  The project also translates the current line into english speech which is easier to listen to than LaTeX source."
 
 domain: latex-access.github.io
 url: https://latex-access.github.io

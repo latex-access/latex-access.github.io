@@ -4,7 +4,7 @@
 
 layout: home
 title: Latex-access, providing easy on-the-fly Braille and speech access to LaTeX documents
-description: "The latex-access project is designed to provide a realtime translation of a line of LaTeX into braille, using either the Nemeth or UEB code, which can be read on a refreshable braille display. This will greatly improve the ease of use of LaTeX to blind mathematicians and scientists.  The project also translates the current line into english speech which is easier to listen to than LaTeX source."
+description: "The latex-access project is a Python package designed to provide a realtime translation of a line of LaTeX into braille, using either the Nemeth or UEB code, which can be read on a refreshable braille display. This will greatly improve the ease of use of LaTeX to blind mathematicians and scientists.  The project also translates the current line into english speech which is easier to listen to than LaTeX source."
 ---
 
 ## What is the Latex-access Project?
@@ -17,7 +17,7 @@ It is widely thought that LaTeX is a good system for a blind mathematician or sc
 
 ## Reading a LaTeX Document
 It is entirely possible to read a LaTeX document simply by reading the LaTeX source itself. This however, is often a time-consuming and pain-staking process, and it is often not particularly nice to read. For example, the LaTeX source for the quadratic formula is <br/>
-```
+```tex
 $$x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}$$
 ```
 It is therefore the aim of the project to translate a line of LaTeX into a line of braille code, which can be read using a refreshable braille display. The project also aims to provide an audible translation of the LaTeX source which will be output through current screen-reading technology.

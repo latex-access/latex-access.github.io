@@ -25,7 +25,6 @@ tagline: "A website dedicated to LaTeX to Braille translation."
 domain: latex-access.github.io
 url: https://latex-access.github.io
 baseurl: "/latex-access/" # the subpath of your site, e.g. /blog
-twitter_username: ""
 github_username: latex-access
 
 # Build settings

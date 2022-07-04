@@ -51,6 +51,7 @@ You can clone it with the following command<br/>
 git clone --recursive https://github.com/latex-access/latex-access.git
 ```
 
-
 ## Contacting the Developers
-The developers of the project are always happy to answer any questions you may have.  We are also keen to hear suggestions for any improvements or new features.  Rather than contacting an individual developer directly it is probably best that you use our [mailing list](https://lists.sourceforge.net/lists/listinfo/latex-access-devel).
+The developers of the project are always happy to answer any questions you may have.  We are also keen to hear suggestions for any improvements or new features.  Rather than contacting an individual developer directly it is probably best that you do one of the following:
+* Use our [mailing list](https://lists.sourceforge.net/lists/listinfo/latex-access-devel)
+* Use the [issue tracker](https://github.com/latex-access/latex-access/issues) on Github to report any bugs or offer feature suggestions. You can create a new one [here](https://github.com/latex-access/latex-access/issues/new).
